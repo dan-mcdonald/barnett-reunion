@@ -1,0 +1,8 @@
+barnettreunion2019.com, www.barnettreunion2019.com {
+  root public/
+  log
+  tls mekmon@gmail.com {
+    #ca https://acme-staging-v02.api.letsencrypt.org/directory
+    ca https://acme-v02.api.letsencrypt.org/directory
+  }
+}
